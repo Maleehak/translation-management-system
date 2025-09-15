@@ -55,7 +55,9 @@ docker-compose build
 docker-compose up
 ```
 
-#### 3. Build and Run
+#### 3. Load data and run application
+
+To automatically populate 100K records of translations, just run the application. It will automatically run the loader that will insert the records into the db for quick production level simulation 
 
 ```bash
 mvn clean install
